@@ -184,6 +184,322 @@ By completing this project, users will:
 Author
 
 Prepared as part of the AI Literacy & Prompt Engineering Professional Roadmap capstone project.
+Master Prompt Library
+A Professional Toolkit for High-Quality AI Prompting
+Introduction
+This prompt library is a curated collection of reusable professional prompts designed for common workplace and academic tasks. Each prompt follows a structured prompting framework to improve clarity, precision, and output quality.
+The library focuses on:
+Better prompt engineering techniques
+Reusable professional templates
+Precision through the “Ask Me Questions First” method
+Consistent, high-quality AI outputs
+The frameworks used include:
+ROLE Framework — Assigns the AI a professional role and clear objective.
+CREATE Framework — Context, Request, Examples, Audience, Tone, Extras.
+CoT (Chain of Thought) — Encourages step-by-step reasoning for complex tasks.
+1. Business Pitch / Proposal Draft Prompt
+Framework Used: ROLE
+Purpose
+Used for creating professional business proposals, sponsorship requests, investment pitches, or partnership letters.
+Full Prompt Template
+Plain text
+You are an experienced business consultant and proposal writer.
 
+TASK:
+Create a professional business proposal for:
+[Business Name or Idea]
+
+TARGET AUDIENCE:
+[Investor / Sponsor / School Board / Client]
+
+OBJECTIVE:
+[What you want to achieve]
+
+KEY DETAILS:
+- Budget: [Insert Budget]
+- Timeline: [Insert Timeline]
+- Expected Benefits: [Insert Benefits]
+- Problem Being Solved: [Insert Problem]
+
+TONE:
+Professional, persuasive, and concise.
+
+STRUCTURE:
+1. Executive Summary
+2. Problem Statement
+3. Proposed Solution
+4. Budget and Timeline
+5. Expected Outcomes
+6. Closing Statement
+
+Before writing, ask me any important questions needed to improve the proposal.
+Example Output
+Executive Summary
+SkyTrack Aviation Club seeks sponsorship support to expand aviation training opportunities for high school students. The program aims to equip learners with practical aviation knowledge and leadership skills through weekly lessons, simulations, and industry exposure.
+Problem Statement
+Many students interested in aviation lack access to practical learning resources and mentorship opportunities.
+Proposed Solution
+The club proposes establishing a mini aviation resource center with simulation software, aviation manuals, and guest training sessions.
+Budget and Timeline
+The project requires KSh 120,000 and will be implemented over 4 months.
+Expected Outcomes
+Increased student participation
+Improved aviation knowledge
+Career exposure opportunities
+Closing Statement
+We believe this initiative will inspire future aviation professionals and strengthen STEM education among students.
+Quality Score: 9/10
+Justification
+Clear structure
+Strong professional tone
+Flexible for many industries
+“Ask Questions First” improves accuracy
+Minor limitation:
+Requires user details before maximum effectiveness.
+2. Formal Legal or Policy Inquiry Prompt
+Framework Used: CREATE
+Purpose
+Used for drafting formal inquiries, policy clarification requests, or legal communication.
+Full Prompt Template
+Plain text
+CONTEXT:
+I need a formal legal/policy inquiry regarding:
+[Insert Issue]
+
+REQUEST:
+Draft a professional inquiry seeking clarification about:
+[Insert Concern]
+
+EXAMPLES:
+Use formal institutional language similar to government or corporate communication.
+
+AUDIENCE:
+[School Administration / Company HR / Government Office]
+
+TONE:
+Respectful, formal, and precise.
+
+EXTRAS:
+- Include a subject heading
+- Maintain neutrality
+- Avoid emotional language
+- Suggest possible next steps
+
+Before drafting, ask me questions to clarify the situation.
+Example Output
+Subject: Request for Clarification on Student Leadership Selection Criteria
+Dear Administration,
+I hope this message finds you well.
+I am writing to respectfully seek clarification regarding the criteria used in selecting student leaders for the upcoming academic term. Understanding the process will help students better prepare themselves for future leadership opportunities.
+Specifically, I would appreciate information concerning:
+Eligibility requirements
+Evaluation procedures
+Leadership expectations
+Thank you for your time and consideration.
+Yours faithfully,
+John Doe
+Quality Score: 8.5/10
+Justification
+Excellent professionalism
+Encourages neutrality
+Highly adaptable
+Limitation:
+Some legal matters may still require expert human review.
+3. Project Management Plan / Timeline Prompt
+Framework Used: CoT (Chain of Thought)
+Purpose
+Used for planning events, projects, club activities, or business operations.
+Full Prompt Template
+Plain text
+You are a certified project manager.
+
+TASK:
+Create a detailed project management plan for:
+[Insert Project Name]
+
+PROJECT DETAILS:
+- Goal: [Insert Goal]
+- Duration: [Insert Duration]
+- Team Members: [Insert Team]
+- Budget: [Insert Budget]
+- Deliverables: [Insert Deliverables]
+
+INSTRUCTIONS:
+Think step-by-step and organize the plan into:
+1. Project Objectives
+2. Task Breakdown
+3. Timeline
+4. Risk Management
+5. Team Responsibilities
+6. Monitoring and Evaluation
+
+Use tables where necessary.
+
+Before generating the plan, ask important clarification questions first.
+Example Output
+Task
+Responsible Person
+Deadline
+Venue Booking
+Operations Team
+Week 1
+Marketing Campaign
+Media Team
+Week 2
+Participant Registration
+Admin Team
+Week 3
+Event Execution
+Entire Team
+Week 4
+Risk Management
+Weather disruptions → Prepare indoor backup venue
+Budget shortages → Seek sponsorship support
+Quality Score: 9.5/10
+Justification
+Highly organized
+Encourages logical thinking
+Excellent for teamwork and planning
+Very effective for academic and professional projects.
+4. Marketing Copy / Social Media Strategy Prompt
+Framework Used: ROLE
+Purpose
+Used for advertisements, brand awareness campaigns, and social media growth strategies.
+Full Prompt Template
+Plain text
+You are a professional digital marketing strategist.
+
+TASK:
+Create a social media marketing strategy for:
+[Brand/Product/Event]
+
+TARGET AUDIENCE:
+[Age Group / Industry / Interests]
+
+PLATFORMS:
+[Instagram / TikTok / LinkedIn / Facebook]
+
+GOALS:
+[Increase sales / Awareness / Engagement]
+
+DELIVERABLES:
+1. Content Strategy
+2. Posting Schedule
+3. Caption Examples
+4. Hashtag Suggestions
+5. Engagement Techniques
+
+TONE:
+Modern, engaging, and audience-focused.
+
+Before generating the strategy, ask me questions about the brand identity and target audience.
+Example Output
+Content Strategy
+Monday: Educational posts
+Wednesday: Behind-the-scenes videos
+Friday: Customer testimonials
+Caption Example
+“Dreaming of flying high? Join the future of aviation learning today!”
+Hashtags
+#AviationClub #FuturePilots #STEMEducation
+Quality Score: 8.8/10
+Justification
+Practical and modern
+Easy to customize
+Supports audience targeting
+Limitation:
+Trends change rapidly and may need updating.
+5. Technical Documentation / Code Review Prompt
+Framework Used: CREATE + CoT
+Purpose
+Used for reviewing code, generating technical documentation, or improving software projects.
+Full Prompt Template
+Plain text
+CONTEXT:
+I have a software project involving:
+[Insert Technology Stack]
+
+REQUEST:
+Review the code/documentation and provide:
+- Error detection
+- Optimization suggestions
+- Security improvements
+- Readability improvements
+- Documentation comments
+
+AUDIENCE:
+Developers and technical team members.
+
+TONE:
+Professional and educational.
+
+EXTRAS:
+Explain your reasoning step-by-step before suggesting improvements.
+
+If information is missing, ask clarification questions first.
+Example Output
+Code Review Findings
+Variable names are inconsistent.
+API keys should not be stored directly in source files.
+Add comments to complex functions.
+Suggested Improvement
+JavaScript
+// Improved variable naming
+const userProfileData = fetchUserData();
+Documentation Suggestion
+Add a README section explaining installation steps and dependencies.
+Quality Score: 9/10
+Justification
+Encourages deep analysis
+Improves technical quality
+Promotes best coding practices
+Very useful for collaborative software development.
+Quick Reference Card
+Use Case
+Best Framework
+Best For
+Strength
+Business Proposal
+ROLE
+Sponsorships, investments
+Professional structure
+Legal/Policy Inquiry
+CREATE
+Formal communication
+Clarity and neutrality
+Project Management
+CoT
+Planning and execution
+Logical organization
+Marketing Strategy
+ROLE
+Branding and promotion
+Audience engagement
+Technical Documentation
+CREATE + CoT
+Software and coding
+Detailed analysis
+Best Practices for Professional Prompting
+1. Ask Questions First
+Always encourage the AI to request missing information before generating the final output.
+Example:
+“Before answering, ask me any important questions needed for accuracy.”
+2. Define the Role Clearly
+Giving the AI a role improves relevance and professionalism.
+Example:
+“You are an experienced corporate lawyer.”
+3. Specify Tone and Audience
+Outputs become more accurate when the intended audience is defined.
+4. Use Structured Formatting
+Structured prompts produce cleaner, more organized responses.
+5. Include Constraints
+Examples:
+Word limits
+Formality level
+Output format
+Timeline requirements
+Conclusion
+This Master Prompt Library demonstrates how structured prompting frameworks can transform AI into a professional productivity tool. By combining ROLE, CREATE, and CoT methods with precision questioning techniques, users can consistently generate high-quality outputs for academic, technical, legal, business, and creative tasks.
+This toolkit can continue expanding over time and serve as a long-term professional resource for effective AI-assisted work.
 
 
